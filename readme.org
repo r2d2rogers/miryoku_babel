@@ -131,7 +131,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| BT_SEL_1 | BT_SEL_2 | BT_SEL_3 | BT_SEL_4 | BT_SEL_5 | BT_SEL_6 | BT_SEL_7 | BT_SEL_8 | BT_SEL_9 | BT_SEL_0 |
+| BT_SEL_0 | BT_SEL_1 | BT_SEL_2 | BT_SEL_3 | BT_SEL_4 | BT_SEL_5 | BT_SEL_6 | BT_SEL_7 | BT_SEL_8 | BT_SEL_9 |
 | LGUI     | LALT     | LCTL     | LSFT     |          |          | LSFT     | LCTL     | LALT     | LGUI     |
 | U_UND    | U_CUT    | U_CPY    | U_PST    | U_RDO    | U_RDO    | U_PST    | U_CPY    | U_CUT    | U_UND    |
 
