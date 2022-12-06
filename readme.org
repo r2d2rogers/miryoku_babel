@@ -98,7 +98,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | ESC   | SPC   | TAB   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| U_NP  | U_NP  | ESC   | SPC   | BSPC  | ENT   | TAB  | DEL   | U_NP  | U_NP  |
 
 
 **** Hold
