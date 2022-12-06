@@ -131,9 +131,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| LGUI  | LALT  | LCTL  | LSFT  |       |       | LSFT  | LCTL  | LALT  | LGUI  |
-| U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
+| BT_SEL_1 | BT_SEL_2 | BT_SEL_3 | BT_SEL_4 | BT_SEL_5 | BT_SEL_6 | BT_SEL_7 | BT_SEL_8 | BT_SEL_9 | BT_SEL_0 |
+| LGUI     | LALT     | LCTL     | LSFT     |          |          | LSFT     | LCTL     | LALT     | LGUI     |
+| U_UND    | U_CUT    | U_CPY    | U_PST    | U_RDO    | U_RDO    | U_PST    | U_CPY    | U_CUT    | U_UND    |
 
 #+NAME: button-thumbs
 | U_NP  | U_NP  | BTN3  | BTN1  | BTN2  | BTN2  | BTN1  | BTN3  | U_NP  | U_NP  |
@@ -595,6 +595,11 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | BT_SEL_2    |                  | &u_bt_sel_2   |               |
 | BT_SEL_3    |                  | &u_bt_sel_3   |               |
 | BT_SEL_4    |                  | &u_bt_sel_4   |               |
+| BT_SEL_5    |                  | &u_bt_sel_5   |               |
+| BT_SEL_6    |                  | &u_bt_sel_6   |               |
+| BT_SEL_7    |                  | &u_bt_sel_7   |               |
+| BT_SEL_8    |                  | &u_bt_sel_8   |               |
+| BT_SEL_9    |                  | &u_bt_sel_9   |               |
 | BTN1        | BTN1             | U_BTN1        | #(kp/ kp5)    |
 | BTN2        | BTN2             | U_BTN2        | #(kp- kp5)    |
 | BTN3        | BTN3             | U_BTN3        | #(kp* kp5)    |
